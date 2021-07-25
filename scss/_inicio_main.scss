@@ -1,17 +1,9 @@
 /* estilo Home  */
-
 main {
 
     .inicio {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        background: $color_kepe;
-        margin: 3em 25%;
+        @include boxprincipal(wrap,3m 25%);
         padding: 16px;
-        height: auto;
-        width: 50%;
     }
 
     .inicio__img {
